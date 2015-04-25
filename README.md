@@ -13,7 +13,7 @@ Karma是一个自动化的单元测试工具。
 
 ```npm install karma --save-dev```
 
-```npm install karma-jasmine karma-chrome-launcher --save-dev```
+```npm install karma-mocha karma-chrome-launcher --save-dev```
 
 执行上面两条命令会在当前工作目录中安装 karma、 karma-mocha 、karma-chrome-launcher 模块
 
