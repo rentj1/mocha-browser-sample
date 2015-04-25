@@ -10,18 +10,19 @@ Karma是一个自动化的单元测试工具。
 
 
 ## 安装Karma
+
 ```npm install karma --save-dev```
+
 ```npm install karma-jasmine karma-chrome-launcher --save-dev```
 
 执行上面两条命令会在当前工作目录中安装 karma、 karma-mocha 、karma-chrome-launcher 模块
 
 # 创建Karma 配置文件
-‘’‘karma init’‘’
+```karma init```
 
 根据命令提示选择单元测试框架，单元测试文件目录， 功能代码文件目录， 也可以使用默认值。
 
 ## 运行Karma
-
 ```./node_modules/karma/bin/karma start```
 
 
